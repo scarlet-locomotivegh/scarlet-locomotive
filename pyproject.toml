@@ -1,13 +1,17 @@
 [project]
 name = "scarlet-locomotive"
-version = "0.1.0"
+version = "0.1.2"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "scarlet-locomotive", email = "scarletlocomotive@proton.me" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy",
+    "torch",
+    "matplotlib",
+]
 
 [tool.maturin]
 module-name = "scarlet_locomotive._core"
