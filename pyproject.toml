@@ -1,6 +1,6 @@
 [project]
 name = "scarlet-locomotive"
-version = "0.1.2"
+version = "0.1.3"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -11,6 +11,7 @@ dependencies = [
     "numpy",
     "torch",
     "matplotlib",
+    "pandas",
 ]
 
 [tool.maturin]
